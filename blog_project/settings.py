@@ -28,7 +28,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = [os.getenv('ALLOWED_HOST_1'), os.getenv("ALLOWED_HOST_2")]
-CRSF_TRUSTED_ORIGINS = [os.getenv('ALLOWED_HOST_1'), os.getenv("ALLOWED_HOST_2")]
+CSRF_TRUSTED_ORIGINS = [os.getenv('CSRF_HOST_1'), os.getenv("CSRF_HOST_2")]
 
 # Application definition
 
