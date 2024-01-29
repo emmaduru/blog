@@ -27,8 +27,8 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
-
+ALLOWED_HOSTS = ["blog-production-54a9.up.railway.app"]
+CRSF_TRUSTED_ORIGINS = ["blog-production-54a9.up.railway.app"]
 
 # Application definition
 
