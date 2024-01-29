@@ -27,8 +27,8 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.getenv('ALLOWED_HOST_1'), os.getenv("ALLOWED_HOST_2")]
-CSRF_TRUSTED_ORIGINS = [os.getenv('CSRF_HOST_1'), os.getenv("CSRF_HOST_2")]
+ALLOWED_HOSTS = ["blog-development-0e33.up.railway.app/", "blog-production-54a9.up.railway.app"]
+CSRF_TRUSTED_ORIGINS = ["https://blog-development-0e33.up.railway.app/", "https://blog-production-54a9.up.railway.app"]
 
 # Application definition
 
